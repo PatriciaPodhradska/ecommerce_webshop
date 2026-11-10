@@ -8,6 +8,8 @@ export interface User {
     avatar?: string;
     is_verified: boolean;
     date_joined: string;
+    is_staff?: boolean; 
+    is_superuser?: boolean;
 }
 
 export interface Category {
